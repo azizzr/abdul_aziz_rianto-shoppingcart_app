@@ -1,0 +1,4 @@
+READ AND WRITE "jumlah" with number
+READ AND WRITE "total_harga" with number
+READ AND WRITE "harga" with number
+STORE "jumlah" with "4"
