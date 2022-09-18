@@ -2,3 +2,9 @@ READ AND WRITE "jumlah" with number
 READ AND WRITE "total_harga" with number
 READ AND WRITE "harga" with number
 STORE "jumlah" with "4"
+IF "Masukkan ke Keranjang" equal "true"
+    STORE "total_harga" with "jumlah" times "harga"
+    PRINT "Melakukan Checkout" 
+    PRINT "Menunggu Pesanan"  
+ELSE
+    PRINT "Memilih Produk"
